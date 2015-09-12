@@ -1,0 +1,11 @@
+acceded;seven letters
+can be played on a musical instrument;cabbage;seven letters
+can be played on a musical instrument;baggage;seven letters
+can be played on a musical instrument; defaced;seven letters
+can be played on a musical instrument;effaced;seven letters
+can be played on a musical instrument;deceded;seven letters
+can be played on a musical instrument;cabbaged;eight letter word
+can be played on a musical instrument;debagged;eight letter word
+can be played on a musical instrument;baggaged;eight letter word
+can be played on a musical instrument;cabbagefaced;twelve letter word
+can be played on a musical instrument

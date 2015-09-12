@@ -1,0 +1,18 @@
+
+
+
+ Mia Armstrong
+Design write up 5
+CS 163
+
+I created a program that inputs words and trivia about said words from a data file into a trivia class object, that class object is then stored in a node which is a vertex points to. Each index in the vertex points to a trivia word and has a head pointer that points to the beginning of a linear linked list of adjacency pointers which point to other indexes in the vertex. All this comes together as an implementation of a graph or an adjacency matrix.  This graph is non-weighted which means that the connections between the trivia words go both ways. The vertex is filled with pointers to trivia and then the user is asked to make connections between the words. Once the user is done making connections they can then display the connections by key word. 
+
+I think that this data structure performs well for this application. It was much easier to implement than some of the other data structures and it seems to work well with my classes. I don't think another data structure would work better for this implementation, however, if you wanted to have an unlimited number of trivia words, or you didn't know how many would be in the file, it would be less efficient since the vertex is basically an array.
+
+I feel like my design was clean and simple and that it takes care of memory well. If I had more time to solve the problem I would try a weighted graph and I would also make a more complex trivia data file. I think it would be interesting to implement this program with a stack of discarded trivia and make it into a trivia game. 
+
+I never got into the part of the assignment calling for depth first traversal. I was unsure how to go about that and I am unsure of that as a concept. I hope to try to learn more about it in the next class. If I had more time I would have liked to implement that part of the program. I was just not sure how to go about implementing that kind of traversal in the limited amount of time we had to work on our last assignment. Depth first traversal for a graph is like depth first traversal for a tree. Unlike trees, graphs make contain cycles so you might come across the same node again. To avoid processing a node more than once you have to set up a flag for when a node is visited. If you don't mark visited vertices then the process could become non-terminating. The code should only allow for traversal from a given key_word to each of the nodes on the adjacency list, skipping the ones that have already been traversed.
+
+I feel like I accomplished a lot with this program and I did not get any help from the tutors at all. I did get some feedback from Karla that helped a bit but I feel like I am getting to the point where I can program on my own for the most part which is nice. I feel like this program and the last program taught me a lot and that I feel much more confident in my abilities and I feel less lost about reading code and understanding what is going on in a program. 
+
+One thing I liked about implementing the graph was that it seems more organized than any of the other data structures we have been working with. It seems more solid, like less can go wrong with it once it's implemented correctly. 
